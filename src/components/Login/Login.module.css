@@ -1,0 +1,77 @@
+
+.login {
+    width: 90%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  .card {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+  }
+  .login h2{
+    text-align: center;
+  }
+
+  .login p{
+    padding-left: 10rem;
+    font-size: .8rem;
+    font-style: italic;
+    color: maroon;
+  }
+
+  
+  .control {
+    margin: 1rem 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  
+  .control label,
+  .control input {
+    display: block;
+  }
+  
+  .control label {
+    font-weight: bold;
+    flex: 1;
+    color: #464646;
+    margin-bottom: 0.5rem;
+  }
+  
+  .control input {
+    flex: 3;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border: 1px solid white;
+    border-bottom: 2px solid black;
+    transition: all .3s ease-in-out;
+  }
+  
+  .control input:focus {
+    outline: none;
+    border-radius: 6px;
+    border-color: white;
+    background: #F7E2E2;
+    transition: all .3s ease-in-out;
+  }
+  
+  .control.invalid input {
+    border: 1px solid maroon;
+    background: #fbdada;
+    transition: all .3s ease-in-out;
+  }
+  
+  .actions {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .control {
+      align-items: center;
+      flex-direction: row;
+    }
+  
+  }
