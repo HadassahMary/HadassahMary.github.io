@@ -15,18 +15,21 @@
   }
 
   .login p{
-    padding-left: 10rem;
+    padding-left: 3rem;
     font-size: .8rem;
     font-style: italic;
-    color: maroon;
+    color: rgb(147, 17, 17);
+  }
+  .buttonHolder{
+    display: flex;
+    justify-content: center;
   }
 
   
   .control {
-    margin: 1rem 0;
-    display: flex;
+    display: inline;
     align-items: stretch;
-    flex-direction: column;
+    width: 30rem;
   }
   
   .control label,
@@ -42,8 +45,9 @@
   }
   
   .control input {
-    flex: 3;
+    width: 80%;
     font: inherit;
+    margin: 1rem 3rem;
     padding: 0.35rem 0.35rem;
     border: 1px solid white;
     border-bottom: 2px solid black;
